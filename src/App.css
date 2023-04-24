@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+font-family: 'Karla', sans-serif;
 }
 
 .App-logo {
@@ -10,6 +12,21 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media (max-width: 700px) {
+  .grid-adjustable-columns {
+    display: grid;
+    grid-auto-flow: row;
+  }
+}
+
+@media (min-width: 701px) {
+  .grid-adjustable-columns {
+    width: min(1000px,75rem);
+    margin: 0 auto;
+    grid-auto-flow: column;
+    gap: 1em;
   }
 }
 
@@ -36,3 +53,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
