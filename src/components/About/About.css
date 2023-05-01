@@ -1,0 +1,21 @@
+.about-background {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    padding: 0 5%;
+    
+}
+.about-background img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: auto;
+    border-radius: 16px;
+    position: absolute;
+    overflow:hidden;
+}
+
+.about-background h1,.about-background h2 {
+    color: #495E57;
+}

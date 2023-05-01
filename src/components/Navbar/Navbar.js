@@ -22,7 +22,7 @@ function Navbar() {
                     MENU
                 </NavLink>
             </li>
-            <li><NavLink to="/reservations">
+            <li><NavLink to="/booking">
                 RESERVATIONS
             </NavLink>
             </li>

@@ -22,7 +22,7 @@ body {
 }
 
 section {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 input {
@@ -50,19 +50,21 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 60pt;
+  font-size: 64pt;
 }
 
 h2 {
-  font-size: 32pt;
+  font-size: 40pt;
 }
 
 h3 {
   font-size: 18pt;
+  font-weight: bold;
 }
 p{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 ul {
@@ -71,6 +73,13 @@ ul {
 
 a {
   text-decoration: none;
+  color: #333333;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 16px;
   color: #333333;
 }
 

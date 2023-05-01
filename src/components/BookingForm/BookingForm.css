@@ -1,0 +1,45 @@
+.booking-section {
+    /* height: 60vh; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+#required-text {
+    font-style: italic;
+    font-weight: 100;
+    color: #9c9c9c;
+}
+
+.form-container {
+    justify-content: space-between;
+}
+
+form {
+    /* display: grid; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 10%;
+    padding-top: 1%;
+}
+
+.personalInfo-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+.time-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+.guests-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+ 
+.btn {
+width: fit-content;
+}
