@@ -6,6 +6,7 @@
     /* padding-left: 10%;
     padding-right: 10%; */
 }
+
 #required-text {
     font-style: italic;
     font-weight: 100;
@@ -17,29 +18,62 @@
 }
 
 form {
-    /* display: grid; */
+    display: grid;
     align-items: center;
-    /* justify-content: space-evenly; */
+    /* justify-content: center; */
     gap: 10%;
     padding-top: 1%;
 }
 
-.personalInfo-div {
+.info {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.personalInfo-div {
+    display: grid;
+    justify-content: space-between;
+    gap: 25%;
     margin-bottom: 3%;
 }
+
 .time-div {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
+    gap: 25%;
     margin-bottom: 3%;
 }
+
 .guests-div {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
+    gap: 25%;
     margin-bottom: 3%;
 }
- 
+
+NavLink {
+    width: max-content;
+
+}
+
 .btn {
-width: fit-content;
+    width: max-content;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.conformation-section {
+    height: 60vh;
+    display: block;
+    padding-top: 5%;
+    align-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
