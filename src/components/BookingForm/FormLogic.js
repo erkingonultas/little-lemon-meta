@@ -40,7 +40,8 @@ function FormLogic(props) {
             <form onSubmit={handleSubmit}>
                 <div className="info">
                     <div className="personalInfo-div">
-                        <div>
+                        <h3>Personal Information</h3>
+                        <div className='name'>
                             <label htmlFor="fullName">Full Name* </label>
                             <input
                                 required
@@ -55,7 +56,6 @@ function FormLogic(props) {
                             />
                         </div>
                         <div>
-
                             <label htmlFor="email">Email* </label>
                             <input
                                 required
@@ -74,6 +74,8 @@ function FormLogic(props) {
                                 required
                                 key={'phone'}
                                 type="tel"
+                                minLength={10}
+                                maxLength={10}
                                 id="phone"
                                 placeholder='(012)-345-6789'
                                 value={phone}
@@ -82,6 +84,7 @@ function FormLogic(props) {
                         </div>
                     </div>
                     <div className="time-div">
+                    <h3>Date Information</h3>
                         <div>
                             <label htmlFor="res-date">Choose date* </label>
                             <input
@@ -100,6 +103,7 @@ function FormLogic(props) {
                         </div>
                     </div>
                     <div className="guests-div">
+                    <h3>About Guests</h3>
                         <div>
                             <label required htmlFor="guests">Number of guests* </label>
                             <input
